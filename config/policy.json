@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "max_parallel_workers": 3,
+  "default_task_budget": 12,
+  "default_revision_rounds": 1,
+  "model": "inherit",
+  "routing": {
+    "small_edit": "manager with inline editorial check",
+    "research": "researcher + strategist as needed; independent verifier; decider; editor",
+    "code": "coder then code-reviewer; verifier for factual claims; decider; editor"
+  },
+  "budget_enforcement": "registered tasks only; no automatic host token metering or hard token cap"
+}

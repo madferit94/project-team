@@ -1,0 +1,14 @@
+# Private projects and runtime state are never published by default.
+projects/*
+!projects/.gitkeep
+work/
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.sqlite3-*
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.claude/settings.local.json
